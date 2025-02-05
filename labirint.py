@@ -1,5 +1,5 @@
 from pygame import *
-#parent class for other sprites
+
 class GameSprite(sprite.Sprite):
    #class constructor
    def __init__(self, player_image, player_x, player_y, size_x, size_y):
